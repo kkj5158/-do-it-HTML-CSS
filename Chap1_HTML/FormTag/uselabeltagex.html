@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 방법 1 : label 태그로 폼요소 감싸기 -->
+
+    <h1> 방법 1 : label 태그로 폼요소 감싸기</h1>
+    <lable for = "id이름">
+       아이디(6자이상) <input id = "idname" type = "id이름" >
+    </lable>
+
+    <div></div>
+
+    <label for="password">
+        비밀번호 (10자이상) <input id="password" type="password"> 
+    </lable>
+
+
+
+    <!-- 방법 2  : label 태그 미리정하고 , 폼 요소하고 연결하기 -->
+
+    <h2>방법 2 : label 태그 작성하고 후에 폼요소 작성후 연결하기 </h2>
+
+    <div></div>
+
+    <label for="user-id"> 아이디(6자이상)</label>
+    <input id = "user-id" type = "text" > 
+    <div></div>
+    <lable for="user-password"> 비밀번호 (10자이상) </lable>
+    <input id = "user-password" type = "password">
+
+    
+    
+</body>
+</html>
